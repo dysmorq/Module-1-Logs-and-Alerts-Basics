@@ -15,6 +15,8 @@ A SOC analyst detects threats by noticing abnormal patterns in the logs.
 - **Network logs** – Traffic flow, firewall logs, router events.
 
 SOC analysts use these logs to monitor the activities from computer systems, applications or network devices and check for unusual behaviour. The analyst will then investigate any noted suspicious activity, document & escalate confirmed threats.
+
+
 **Log Type	  Source	                Example Event	                    Why It Matters**
   System	    Linux -journalctl	      Failed SSH login	                Could indicate brute-force attack
   Security	  Windows Event Viewer	  User added to admin group	        Could be unauthorized privilege escalation
